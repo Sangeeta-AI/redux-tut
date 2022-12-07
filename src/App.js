@@ -6,6 +6,7 @@ const App = () => {
   const dispatch = useDispatch();
     return (
       <div>
+        <h1>Hello</h1>
         <button onClick={()=> dispatch(decNumber(5))}>-</button>
         <button onClick={()=> dispatch(incNumber(5))}>+</button>
         <p>{myState}</p>
